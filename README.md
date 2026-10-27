@@ -13,7 +13,7 @@
 
 > 📌 **저장소 구분 안내**:
 > - 📦 **본 저장소 ([OFFCEBIN-1](https://github.com/Gimsphil/OFFCEBIN-1))**: 최신 완성 배포 패키지(Windows Setup, 무설치 포터블, macOS, Linux, iPad) 전용 릴리즈 저장소입니다.
-> - 💻 **개발 소스코드 저장소 ([OFFICE-BIN](https://github.com/Gimsphil/OFFICE-BIN))**: 핵심 엔진, 소스코드 및 개발 히스토리가 관리되는 저장소입니다.
+
 
 ---
 
@@ -104,7 +104,6 @@ PC 서버가 켜져 있어야만 접속할 수 있는 반쪽짜리 웹앱이 아
 ## 🔗 관련 저장소
 
 - 📦 **배포 패키지 전용 저장소**: [Gimsphil/OFFCEBIN-1](https://github.com/Gimsphil/OFFCEBIN-1)
-- 💻 **오픈소스 개발 저장소**: [Gimsphil/OFFICE-BIN](https://github.com/Gimsphil/OFFICE-BIN)
 
 ---
 
