@@ -1,0 +1,7 @@
+# Prevent historical archive binary packages from exceeding GitHub Git LFS 1GB quota
+versions/*/*.zip
+versions/*/*.tar.gz
+versions/*/*.exe
+versions/*/*.html
+!versions/*/README.md
+!versions/*/version.json

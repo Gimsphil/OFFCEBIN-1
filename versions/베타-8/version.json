@@ -1,0 +1,31 @@
+{
+  "version": "1.1.8",
+  "betaTag": "베타-8",
+  "date": "2026-10-27",
+  "packages": [
+    {
+      "name": "OFFICE_BIN_Setup.exe",
+      "sizeMB": 173.21
+    },
+    {
+      "name": "OFFICE_BIN_Windows_Portable.zip",
+      "sizeMB": 222.23
+    },
+    {
+      "name": "OFFICE_BIN_macOS.zip",
+      "sizeMB": 84.06
+    },
+    {
+      "name": "OFFICE_BIN_Linux.tar.gz",
+      "sizeMB": 73.3
+    },
+    {
+      "name": "OFFICE_BIN_iPad_PWA.zip",
+      "sizeMB": 6.51
+    },
+    {
+      "name": "OFFICE_BIN_iPad_Standalone.html",
+      "sizeMB": 8.12
+    }
+  ]
+}
