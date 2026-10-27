@@ -7634,9 +7634,9 @@ td.has-excel-comment::after {
               <span><i class="bi bi-box-seam"></i> OBIN 통합 프로젝트 저장</span>
               <span class="badge ms-auto" style="background:rgba(245,158,11,0.2);color:#f59e0b;font-size:10px;padding:2px 6px;border-radius:4px;">.obin</span>
             </button>
-            <button class="dropdown-item" onclick="openIpadConnectModal(); closeGlobalToolsMenu();" title="아이패드/태블릿 무선 연결 (1초 카메라 QR 스캔)" style="font-weight:600;color:#38bdf8;">
-              <span><i class="bi bi-tablet text-info"></i> 아이패드 · 태블릿 무선 즉시 연결 (QR)</span>
-              <span class="badge ms-auto" style="background:rgba(56,189,248,0.2);color:#38bdf8;font-size:10px;padding:2px 6px;border-radius:4px;">QR 스캔</span>
+            <button class="dropdown-item" onclick="openIpadConnectModal(); closeGlobalToolsMenu();" title="[실험실] 아이패드/태블릿 무선 연결 (1초 카메라 QR 스캔)" style="font-weight:600;color:#38bdf8;">
+              <span><i class="bi bi-tablet text-info"></i> [실험실] 아이패드 · 태블릿 무선 연결</span>
+              <span class="badge ms-auto" style="background:rgba(245,158,11,0.2);color:#f59e0b;font-size:10px;padding:2px 6px;border-radius:4px;">실험실 Beta</span>
             </button>
           </div>
 
@@ -7744,10 +7744,11 @@ td.has-excel-comment::after {
         </div>
       </div>
 
-      <!-- iPad Wireless Instant Connect (1-Sec QR Code) -->
-      <button class="btn-theme" id="btnIpadConnect" onclick="openIpadConnectModal()" title="📱 아이패드/태블릿 무선 연결 (1초 카메라 QR 스캔)" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.35);color:#60a5fa;font-weight:600;display:inline-flex;align-items:center;gap:5px;padding:0 9px;border-radius:6px;cursor:pointer;">
-        <i class="bi bi-tablet"></i>
-        <span style="font-size:12px;">iPad</span>
+      <!-- iPad Wireless Instant Connect (Experimental Lab) -->
+      <button class="btn-theme" id="btnIpadConnect" onclick="openIpadConnectModal()" title="🧪 [실험실] 아이패드/태블릿 무선 연결" style="background:rgba(59,130,246,0.12);border:1px solid rgba(59,130,246,0.25);color:#93c5fd;font-weight:500;display:inline-flex;align-items:center;gap:4px;padding:0 8px;border-radius:6px;cursor:pointer;">
+        <span style="font-size:10px;background:rgba(245,158,11,0.25);color:#fbbf24;padding:1px 4px;border-radius:3px;font-weight:700;">실험실</span>
+        <i class="bi bi-tablet" style="font-size:12px;"></i>
+        <span style="font-size:11px;">iPad</span>
       </button>
 
       <!-- Universal Screen Crop (AI, Save, Copy, Send) -->
@@ -14274,9 +14275,14 @@ td.has-excel-comment::after {
       <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;">
         <h3 style="margin:0;font-size:16px;font-weight:700;display:flex;align-items:center;gap:8px;">
           <i class="bi bi-tablet text-primary" style="font-size:20px;color:#38bdf8;"></i>
-          <span>아이패드 · 태블릿 무선 즉시 연결</span>
+          <span>🧪 [실험실] 아이패드 · 태블릿 무선 연결 (Beta)</span>
         </h3>
         <button class="modal-close-btn" onclick="closeIpadConnectModal()" style="background:none;border:none;color:var(--text-sub,#94a3b8);cursor:pointer;font-size:16px;" title="닫기 (ESC)"><i class="bi bi-x-lg"></i></button>
+      </div>
+
+      <div style="font-size:12px;color:#fbbf24;background:rgba(245,158,11,0.12);border:1px solid rgba(245,158,11,0.3);border-radius:8px;padding:8px 12px;margin-bottom:12px;line-height:1.45;text-align:left;">
+        <i class="bi bi-flask" style="margin-right:4px;"></i>
+        <strong>실험실 안내:</strong> iPad(Safari/iOS) 환경은 브라우저 샌드박스 및 메모리 제한으로 인해 일부 대용량 문서 처리에 제약이 있을 수 있는 실험적 기능입니다. 안정적인 업무에는 PC 데스크톱 버전을 권장합니다.
       </div>
 
       <div style="font-size:12.5px;color:var(--text-sub,#94a3b8);margin-bottom:14px;line-height:1.5;">

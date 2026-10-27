@@ -7,13 +7,14 @@
 <p align="center">
   <img src="https://img.shields.io/badge/All--in--One-Office%20Suite-blue?style=for-the-badge&logo=microsoftoffice" />
   <img src="https://img.shields.io/badge/Formats-HWP%20%7C%20XLSX%20%7C%20DOCX%20%7C%20PDF%20%7C%20PPT%20%7C%20MD%20%7C%20IMG-darkgreen?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux%20%7C%20iPad-emerald?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-emerald?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Experimental-iPad%20Lab%20Beta-amber?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Offline-100%25%20No%20Server%20Needed-purple?style=for-the-badge" />
   <img src="https://img.shields.io/badge/License-Apache%202.0-orange?style=for-the-badge" />
 </p>
 
 > 📌 **저장소 안내**:
-> - 📦 **본 저장소 ([OFFCEBIN-1](https://github.com/Gimsphil/OFFCEBIN-1))**: 최신 배포 패키지(Windows Setup, 무설치 포터블, macOS, Linux, iPad) 전용 공식 릴리즈 저장소입니다.
+> - 📦 **본 저장소 ([OFFCEBIN-1](https://github.com/Gimsphil/OFFCEBIN-1))**: 최신 배포 패키지(Windows Setup, 무설치 포터블, macOS, Linux, 실험실 iPad) 전용 공식 릴리즈 저장소입니다.
 
 ---
 
@@ -31,19 +32,30 @@
 
 ---
 
-## 📥 최신 배포판 즉시 다운로드 (1초 원클릭)
+## 📥 정식 배포판 다운로드 (Windows · macOS · Linux)
 
-원하시는 운영체제에 맞는 패키지를 선택하여 즉시 다운로드하세요.  
+원하시는 운영체제에 맞는 정식 지원 패키지를 선택하여 즉시 다운로드하세요.  
 모든 패키지는 **외부 서버나 클라우드 로그인 없이 100% 무설치/로컬 오프라인**으로 작동합니다.
 
 | 플랫폼 | 패키지 파일명 | 원클릭 다운로드 | 용량 | 특징 및 권장 대상 |
 | :--- | :--- | :---: | :---: | :--- |
-| 🪟 **Windows (설치형)** | `OFFICE_BIN_Setup.exe` | [**⬇️ 설치 파일 받기**](https://github.com/Gimsphil/OFFCEBIN-1/raw/main/OFFICE_BIN_Setup.exe) | 173 MB | 일반 PC 사용자. 바탕화면 바로가기 및 파일 확장자 자동 등록 |
+| 🪟 **Windows (설치형)** | `OFFICE_BIN_Setup.exe` | [**⬇️ 설치 파일 받기**](https://github.com/Gimsphil/OFFCEBIN-1/raw/main/OFFICE_BIN_Setup.exe) | 173 MB | **기본 권장!** 바탕화면 바로가기 및 파일 확장자 자동 등록 |
 | 💼 **Windows (무설치 포터블)** | `OFFICE_BIN_Windows_Portable.zip` | [**⬇️ 무설치 ZIP 받기**](https://github.com/Gimsphil/OFFCEBIN-1/raw/main/OFFICE_BIN_Windows_Portable.zip) | 222 MB | USB 휴대용, 보안 정책 강화 PC, 압축 풀고 `run.bat` 즉시 실행 |
 | 🍏 **macOS (애플 맥)** | `OFFICE_BIN_macOS.zip` | [**⬇️ Mac용 패키지**](https://github.com/Gimsphil/OFFCEBIN-1/raw/main/OFFICE_BIN_macOS.zip) | 84 MB | MacBook, iMac, Mac mini 사용자 (Apple Silicon & Intel 지원) |
 | 🐧 **Linux (리눅스)** | `OFFICE_BIN_Linux.tar.gz` | [**⬇️ Linux 패키지**](https://github.com/Gimsphil/OFFCEBIN-1/raw/main/OFFICE_BIN_Linux.tar.gz) | 73 MB | Ubuntu, Debian, Fedora, RedHat 엔지니어 (`./install_linux.sh`) |
-| 📱 **iPad (완전 단독 1개 파일)** | `OFFICE_BIN_iPad_Standalone.html` | [**⬇️ 아이패드 단독 파일**](https://github.com/Gimsphil/OFFCEBIN-1/raw/main/OFFICE_BIN_iPad_Standalone.html) | **6.6 MB** | **초강력 추천!** PC 전원 없이 아이패드 '파일' 앱 또는 사파리에서 즉시 실행 |
-| 🌐 **iPad (PWA 웹 패키지)** | `OFFICE_BIN_iPad_PWA.zip` | [**⬇️ iPad PWA 받기**](https://github.com/Gimsphil/OFFCEBIN-1/raw/main/OFFICE_BIN_iPad_PWA.zip) | 5.5 MB | 로컬 웹 서버 구동 및 아이패드 홈 화면 정식 앱 등록용 |
+
+---
+
+### 🧪 [실험실 / Beta] 모바일 & 태블릿 연구용 패키지
+
+> ⚠️ **실험실 안내**:  
+> iPad(Safari/iOS) 환경은 브라우저 샌드박스 정책, WebAssembly 메모리 상한선(1GB), 대용량 파일 핸들링 제한 등으로 인해 실제 복잡한 문서/도면 구동 시 호환성 제약이 발생할 수 있어, 현재 **[실험실(Beta)]** 단계로 분리하여 별도 연구·관리하고 있습니다.  
+> **안정적이고 강력한 실무 업무를 위해서는 PC 데스크톱 버전(Windows, macOS, Linux) 사용을 적극 권장합니다.**
+
+| 실험실 패키지 | 파일명 | 다운로드 | 용량 | 비고 |
+| :--- | :--- | :---: | :---: | :--- |
+| 🧪 **iPad 단독 파일 (HTML)** | `OFFICE_BIN_iPad_Standalone.html` | [**⬇️ 실험실 HTML 받기**](https://github.com/Gimsphil/OFFCEBIN-1/raw/main/OFFICE_BIN_iPad_Standalone.html) | 6.6 MB | 연구용 단일 파일. 사파리 웹뷰 실험 |
+| 🧪 **iPad PWA 패키지** | `OFFICE_BIN_iPad_PWA.zip` | [**⬇️ 실험실 PWA 받기**](https://github.com/Gimsphil/OFFCEBIN-1/raw/main/OFFICE_BIN_iPad_PWA.zip) | 5.5 MB | 로컬 노드 서버 기반 테스트 패키지 |
 
 ---
 
@@ -82,37 +94,27 @@
 ### 8. 📐 [전문 부가 기능] 도면 실측 & 물량산출(Takeoff) 모듈
 - 건축·인테리어·설비 실무자를 위해 고가의 CAD 프로그램 없이도 PDF 도면을 직접 열어 2점 스케일 맞춤, PL 연속선 치수, 면적/체적 자동 적산, 독립 해치 패턴을 실측하고 **엑셀 내역서로 1클릭 전송**하는 프로페셔널 측정 툴을 함께 탑재하였습니다.
 
-### 9. 📱 PC 전원 없이 아이패드 단독 실행 (True Standalone)
-- **단 1개의 HTML 파일 (`OFFICE_BIN_iPad_Standalone.html`, 6.6MB)**:
-  - PC나 서버 구동 불필요, 인터넷/와이파이 ZERO 환경에서도 완벽 작동!
-  - 아이패드 '파일' 앱 또는 사파리에서 터치하면 즉시 한글, 엑셀, PDF, 슬라이드가 열립니다.
-  - 현장, 출장지, 비행기 안 어디서나 애플 펜슬과 함께 즉시 업무를 처리하세요.
+### 9. 🔄 스마트 1-클릭 자동 업데이트
+- 데스크톱 앱 실행 시 최신 버전이 출시되면 백그라운드에서 신규 버전을 자동 감지하여 다운로드하고, 사용자가 승인 버튼을 누르면 1-클릭으로 기존 설정과 작업 환경 그대로 자동 갱신 및 재실행됩니다.
+
+### 10. 🧪 [실험실 R&D] 아이패드(iPad) 환경 분리 연구
+- iOS 제약을 극복하고 향후 완벽한 태블릿 경험을 제공하기 위해 WebAssembly 메모리 최적화 및 터치 제스처 엔진을 실험실 브랜치에서 지속적으로 연구·개선하고 있습니다.
 
 ---
 
 ## 🔒 100% 로컬 오프라인 데이터 보안 (외부 유출 원천 차단)
 
 - **기업 기밀 및 개인정보 완벽 보호**: 문서를 외부 클라우드나 사외 서버로 절대 전송하지 않습니다.
-- 모든 파싱, 렌더링, 수식 계산이 사용자의 PC/태블릿 기기 내부에서만 100% 로컬로 처리됩니다.
+- 모든 파싱, 렌더링, 수식 계산이 사용자의 PC 내부에서만 100% 로컬로 처리됩니다.
 - **단일 통합 프로젝트 컨테이너 (`*.obin`)**: 워드, 엑셀, PDF 주석 등 복합 작업물을 단 1개의 파일로 묶어 영구 보관할 수 있습니다.
-
----
-
-## 🔄 스마트 자동 업데이트 지원
-
-OFFICE BIN 데스크톱 앱은 최신 버전이 출시되면 백그라운드에서 신규 버전을 자동 감지하여 다운로드하고, 사용자가 승인 버튼을 누르면 1-클릭으로 기존 환경 그대로 자동 갱신 및 재실행됩니다.
 
 ---
 
 ## 🚀 빠른 시작 가이드 (Quick Start)
 
-### 1) Windows
+### Windows
 1. [`OFFICE_BIN_Setup.exe`](https://github.com/Gimsphil/OFFCEBIN-1/raw/main/OFFICE_BIN_Setup.exe)를 다운로드하여 실행하면 자동으로 설치됩니다.
 2. 무설치로 사용하시려면 [`OFFICE_BIN_Windows_Portable.zip`](https://github.com/Gimsphil/OFFCEBIN-1/raw/main/OFFICE_BIN_Windows_Portable.zip)의 압축을 풀고 **`run.bat`**을 실행하세요.
-
-### 2) iPad (아이패드)
-1. [`OFFICE_BIN_iPad_Standalone.html`](https://github.com/Gimsphil/OFFCEBIN-1/raw/main/OFFICE_BIN_iPad_Standalone.html) 파일을 다운로드합니다.
-2. 아이패드의 **'파일(Files)' 앱** 또는 사파리에서 열면 즉시 전체 화면 네이티브 스튜디오가 실행됩니다!
 
 ---
 
