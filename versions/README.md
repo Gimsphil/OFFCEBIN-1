@@ -1,16 +1,17 @@
 # 📦 OFFICE BIN 버전별 배포 및 백업 보관소
 
 본 디렉토리(`versions/`)는 `OFFICE BIN`의 모든 릴리즈 버전별 완성 패키지 및 릴리즈 노트를 영구적으로 백업·보존하는 전용 저장 공간입니다.
+모든 배포판 폴더는 사용자의 요청에 따라 **`BETA-OFFICE BIN-버젼번호`** 표준 규격으로 일원화되어 관리됩니다.
 
 ---
 
 ## 🗂️ 버전별 배포 아카이브 목록
 
-| 버전 폴더 | 릴리즈 일자 | 핵심 개선 및 변경 내역 | 보관 패키지 구성 |
+| 버전 폴더 (`BETA-OFFICE BIN-버젼번호`) | 릴리즈 일자 | 핵심 개선 및 변경 내역 | 보관 패키지 구성 |
 | :--- | :---: | :--- | :--- |
-| **`베타-6`** | 2026-10-26 | • PDF 도면 실측 및 엑셀 연동 기능 탑재<br>• 한글(HWP) Rust WASM 뷰어 1:1 레이아웃 보존<br>• 멀티플랫폼(Win/Mac/Linux/iPad) 초기 패키징 | Setup, Portable, Mac, Linux, iPad HTML/PWA (총 6종) |
-| **`베타-7`** | 2026-10-27 | • 저장소 93.1% 용량 다이어트 및 이원화 분리<br>• Electron Service Worker 충돌(블랙 스크린) 해결<br>• 1-클릭 스마트 무인 자동 업데이트 엔진(`version.json`) 탑재 | Setup, Portable, Mac, Linux, iPad HTML/PWA (총 6종) |
-| **`베타-8`** | 2026-10-28 | • PDF 모듈 카드 테두리 색상 통일 (타 오피스 카드와 일원화)<br>• 불필요한 '앱 닫기' 헤더 버튼 제거 및 UI 정돈<br>• '← 뒤로' 메뉴 실제 히스토리 존재 시에만 동적 노출<br>• 'OFFICE BIN' 브랜드 로고 클릭 시 앱 정보/버전 모달 표출<br>• iPad 환경 `[실험실(Beta)]` 공식 분리 지정 및 데스크톱 완성도 보강 | Setup, Portable, Mac, Linux, iPad HTML/PWA (총 6종) |
+| **`BETA-OFFICE BIN-6`** | 2026-10-26 | • PDF 도면 실측 및 엑셀 연동 기능 탑재<br>• 한글(HWP) Rust WASM 뷰어 1:1 레이아웃 보존<br>• 멀티플랫폼(Win/Mac/Linux/iPad) 초기 패키징 | Setup, Portable, Mac, Linux, iPad HTML/PWA (총 6종) |
+| **`BETA-OFFICE BIN-7`** | 2026-10-27 | • 저장소 93.1% 용량 다이어트 및 이원화 분리<br>• Electron Service Worker 충돌(블랙 스크린) 해결<br>• 1-클릭 스마트 무인 자동 업데이트 엔진(`version.json`) 탑재 | Setup, Portable, Mac, Linux, iPad HTML/PWA (총 6종) |
+| **`BETA-OFFICE BIN-8`** | 2026-10-28 | • PDF 모듈 카드 테두리 색상 통일 (타 오피스 카드와 일원화)<br>• 불필요한 '앱 닫기' 헤더 버튼 제거 및 UI 정돈<br>• '← 뒤로' 메뉴 실제 히스토리 존재 시에만 동적 노출<br>• 'OFFICE BIN' 브랜드 로고 클릭 시 앱 정보/버전 모달 표출<br>• iPad 환경 `[실험실(Beta)]` 공식 분리 지정 및 데스크톱 완성도 보강 | Setup, Portable, Mac, Linux, iPad HTML/PWA (총 6종) |
 
 ---
 
