@@ -14,7 +14,7 @@
 </p>
 
 > 📌 **저장소 안내**:
-> - 📦 **본 저장소 ([OFFCEBIN-1](https://github.com/Gimsphil/OFFCEBIN-1))**: 최신 배포 패키지(Windows Setup, 무설치 포터블, macOS, Linux, 실험실 iPad) 전용 공식 릴리즈 저장소입니다.
+> - 📦 **본 저장소 ([OFFCEBIN-1](https://github.com/Gimsphil/OFFCEBIN-1))**: 최신 배포 패키지(Windows Setup, macOS, Linux, 실험실 iPad) 전용 공식 릴리즈 저장소입니다.
 
 ---
 
@@ -39,8 +39,7 @@
 
 | 플랫폼 | 패키지 파일명 | 원클릭 다운로드 | 용량 | 특징 및 권장 대상 |
 | :--- | :--- | :---: | :---: | :--- |
-| 🪟 **Windows (설치형)** | `OFFICE_BIN_Setup.exe` | [**⬇️ 설치 파일 받기**](https://github.com/Gimsphil/OFFCEBIN-1/raw/main/OFFICE_BIN_Setup.exe) | 173 MB | **기본 권장!** 바탕화면 바로가기 및 파일 확장자 자동 등록 |
-| 💼 **Windows (무설치 포터블)** | `OFFICE_BIN_Windows_Portable.zip` | [**⬇️ 무설치 ZIP 받기**](https://github.com/Gimsphil/OFFCEBIN-1/raw/main/OFFICE_BIN_Windows_Portable.zip) | 222 MB | USB 휴대용, 보안 정책 강화 PC, 압축 풀고 `run.bat` 즉시 실행 |
+| 🪟 **Windows (통합 설치형)** | `OFFICE_BIN_Setup.exe` | [**⬇️ 설치 파일 받기**](https://github.com/Gimsphil/OFFCEBIN-1/raw/main/OFFICE_BIN_Setup.exe) | 173 MB | **공식 Windows 통합 단일 배포본!** 바탕화면 바로가기 및 파일 확장자 자동 등록 |
 | 🍏 **macOS (애플 맥)** | `OFFICE_BIN_macOS.zip` | [**⬇️ Mac용 패키지**](https://github.com/Gimsphil/OFFCEBIN-1/raw/main/OFFICE_BIN_macOS.zip) | 84 MB | MacBook, iMac, Mac mini 사용자 (Apple Silicon & Intel 지원) |
 | 🐧 **Linux (리눅스)** | `OFFICE_BIN_Linux.tar.gz` | [**⬇️ Linux 패키지**](https://github.com/Gimsphil/OFFCEBIN-1/raw/main/OFFICE_BIN_Linux.tar.gz) | 73 MB | Ubuntu, Debian, Fedora, RedHat 엔지니어 (`./install_linux.sh`) |
 
@@ -113,8 +112,7 @@
 ## 🚀 빠른 시작 가이드 (Quick Start)
 
 ### Windows
-1. [`OFFICE_BIN_Setup.exe`](https://github.com/Gimsphil/OFFCEBIN-1/raw/main/OFFICE_BIN_Setup.exe)를 다운로드하여 실행하면 자동으로 설치됩니다.
-2. 무설치로 사용하시려면 [`OFFICE_BIN_Windows_Portable.zip`](https://github.com/Gimsphil/OFFCEBIN-1/raw/main/OFFICE_BIN_Windows_Portable.zip)의 압축을 풀고 **`run.bat`**을 실행하세요.
+1. [`OFFICE_BIN_Setup.exe`](https://github.com/Gimsphil/OFFCEBIN-1/raw/main/OFFICE_BIN_Setup.exe)를 다운로드하여 실행하면 1초 만에 자동으로 설치 및 바로가기가 구성됩니다. (무설치 포터블은 v1.1.1부터 단일 Setup 버전으로 일원화되어 공식 지원 종료)
 
 ---
 

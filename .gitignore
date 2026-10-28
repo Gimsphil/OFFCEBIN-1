@@ -1,2 +1,5 @@
 # Versions directory is ignored in Git - all release binaries are managed via GitHub Releases (https://github.com/Gimsphil/OFFCEBIN-1/releases)
 versions/
+
+# Discontinued / deprecated packages
+OFFICE_BIN_Windows_Portable.zip
