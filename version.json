@@ -9,11 +9,39 @@
     "MS 오피스 정품 스타일 클린 리본 메뉴 및 모든 메뉴 100% 정상 실행 보장",
     "모던 다크 테마 'AI 도우미' 사이드바 탑재 (초안 작성, 수식, 요약)",
     "엑셀 드래그 셀 선택 박스 미트그린 디자인 및 '+✦ AI 수정 요청' 플로팅 버튼",
-    "버전별 아카이브 'BETA-OFFICE BIN-버젼번호' 표준 규격 단일화",
-    "GitHub Releases 고속 글로벌 CDN을 통한 쾌속 업데이트 다운로드"
+    "엑셀 및 PPT 전 모듈 Ctrl + 마우스 휠 부드러운 실시간 확대/축소 지원",
+    "투박한 녹색 알림 상자 제거 및 세련된 미니멀 텍스트 알림 출력 적용",
+    "PC 환경(설치형/포터블/OS) 맞춤형 초고속 자동 다운로드 및 무중단 원클릭 업데이트",
+    "버전별 아카이브 'BETA-OFFICE BIN-버젼번호' 표준 규격 단일화"
   ],
-  "downloadUrl": "https://github.com/Gimsphil/OFFCEBIN-1/releases/download/v1.1.0/OFFICE_BIN_Setup.exe",
-  "portableUrl": "https://github.com/Gimsphil/OFFCEBIN-1/releases/download/v1.1.0/OFFICE_BIN_Windows_Portable.zip",
+  "downloadUrl": "https://github.com/Gimsphil/OFFCEBIN-1/raw/main/OFFICE_BIN_Setup.exe",
+  "portableUrl": "https://github.com/Gimsphil/OFFCEBIN-1/raw/main/OFFICE_BIN_Windows_Portable.zip",
+  "platforms": {
+    "win32-installer": {
+      "url": "https://github.com/Gimsphil/OFFCEBIN-1/raw/main/OFFICE_BIN_Setup.exe",
+      "fallbackUrl": "https://media.githubusercontent.com/media/Gimsphil/OFFCEBIN-1/main/OFFICE_BIN_Setup.exe",
+      "fileName": "OFFICE_BIN_Setup.exe",
+      "fileSize": 181620736
+    },
+    "win32-portable": {
+      "url": "https://github.com/Gimsphil/OFFCEBIN-1/raw/main/OFFICE_BIN_Windows_Portable.zip",
+      "fallbackUrl": "https://media.githubusercontent.com/media/Gimsphil/OFFCEBIN-1/main/OFFICE_BIN_Windows_Portable.zip",
+      "fileName": "OFFICE_BIN_Windows_Portable.zip",
+      "fileSize": 233022649
+    },
+    "darwin": {
+      "url": "https://github.com/Gimsphil/OFFCEBIN-1/raw/main/OFFICE_BIN_macOS.zip",
+      "fallbackUrl": "https://media.githubusercontent.com/media/Gimsphil/OFFCEBIN-1/main/OFFICE_BIN_macOS.zip",
+      "fileName": "OFFICE_BIN_macOS.zip",
+      "fileSize": 88139038
+    },
+    "linux": {
+      "url": "https://github.com/Gimsphil/OFFCEBIN-1/raw/main/OFFICE_BIN_Linux.tar.gz",
+      "fallbackUrl": "https://media.githubusercontent.com/media/Gimsphil/OFFCEBIN-1/main/OFFICE_BIN_Linux.tar.gz",
+      "fileName": "OFFICE_BIN_Linux.tar.gz",
+      "fileSize": 76856295
+    }
+  },
   "fileSize": 181620736,
   "mandatory": false
 }
