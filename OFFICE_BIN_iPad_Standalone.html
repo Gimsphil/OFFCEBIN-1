@@ -1416,7 +1416,7 @@ body.theme-light .word-mode-banner {
 }
 
 .spreadsheet-table th, .spreadsheet-table td {
-  border: 1px solid #e2e8f0;
+  border: 1px solid #cbd5e1;
   height: 26px;
   padding: 2px 6px;
   white-space: nowrap;
@@ -1483,7 +1483,7 @@ body.theme-light .word-mode-banner {
   z-index: 5;
 }
 
-/* Light / Eye-Comfort Soft Theme Cell Selection - Crystal Clear & Soft Wash */
+/* Light / Eye-Comfort Soft Theme Cell Selection - Crystal Clear Gridlines & Soft Wash */
 .spreadsheet-table td.active-cell {
   outline: 2px solid #107c41 !important;
   outline-offset: -2px;
@@ -1492,11 +1492,13 @@ body.theme-light .word-mode-banner {
 }
 
 .spreadsheet-table td.selected-range {
-  background: rgba(16, 124, 65, 0.12) !important;
+  background: rgba(16, 124, 65, 0.08) !important;
+  border: 1px solid rgba(16, 124, 65, 0.32) !important;
 }
 
 .spreadsheet-table td.selected-range.active-cell {
-  background: transparent !important;
+  background: #ffffff !important;
+  border: 1px solid rgba(16, 124, 65, 0.32) !important;
 }
 
 .spreadsheet-table td.range-top {
@@ -1521,10 +1523,12 @@ body.theme-light .word-mode-banner {
 }
 
 .sheet-grid-wrapper.sheet-dark-mode .spreadsheet-table td.selected-range {
-  background: rgba(52, 211, 153, 0.14) !important;
+  background: rgba(52, 211, 153, 0.12) !important;
+  border: 1px solid rgba(52, 211, 153, 0.35) !important;
 }
 .sheet-grid-wrapper.sheet-dark-mode .spreadsheet-table td.selected-range.active-cell {
-  background: rgba(30, 41, 59, 0.4) !important;
+  background: rgba(30, 41, 59, 0.6) !important;
+  border: 1px solid rgba(52, 211, 153, 0.35) !important;
 }
 
 .sheet-grid-wrapper.sheet-dark-mode .spreadsheet-table td.range-top {
