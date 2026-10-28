@@ -1,16 +1,17 @@
 {
-  "version": "1.1.1",
-  "name": "OFFICE BIN 1.1.1",
+  "version": "1.1.2",
+  "name": "OFFICE BIN 1.1.2",
   "releaseDate": "2026-10-28",
-  "title": "OFFICE BIN v1.1.1 정식 업데이트",
+  "title": "OFFICE BIN v1.1.2 정식 업데이트",
   "notes": [
+    "홈 화면 상단 배너 카드 제거 및 핵심 모듈 메뉴 최상단 상향 배치 최적화",
     "한글(HWP/HWPX), 엑셀(XLSX/CSV), 워드(DOCX), PPT, PDF/CAD, OCR, 마크다운/마인드맵 7대 올인원 모듈 완벽 구동",
     "엑셀 및 PPT 전 모듈 Ctrl + 마우스 휠 부드러운 실시간 확대/축소(50%~250%) 완벽 지원",
     "엑셀 셀 드래그 선택 시 내부 그리드 구분선 또렷하게 유지 및 선명한 가시성 확보",
     "투박한 녹색 알림 상자 제거 및 세련된 미니멀 텍스트 알림 출력 적용",
     "Windows 배포판 Setup 단일 공식 버전으로 일원화 (Portable 버전 공식 중단)",
     "PC 환경 맞춤형 초고속 자동 다운로드 및 무중단 원클릭 업데이트",
-    "버전별 배포 아카이브 '1.1.1' 표준 버전 번호 단일화 보관"
+    "버전별 배포 아카이브 '1.1.2' 표준 버전 번호 단일화 보관"
   ],
   "downloadUrl": "https://github.com/Gimsphil/OFFCEBIN-1/raw/main/OFFICE_BIN_Setup.exe",
   "platforms": {
@@ -18,21 +19,21 @@
       "url": "https://github.com/Gimsphil/OFFCEBIN-1/raw/main/OFFICE_BIN_Setup.exe",
       "fallbackUrl": "https://media.githubusercontent.com/media/Gimsphil/OFFCEBIN-1/main/OFFICE_BIN_Setup.exe",
       "fileName": "OFFICE_BIN_Setup.exe",
-      "fileSize": 181620736
+      "fileSize": 181628928
     },
     "darwin": {
       "url": "https://github.com/Gimsphil/OFFCEBIN-1/raw/main/OFFICE_BIN_macOS.zip",
       "fallbackUrl": "https://media.githubusercontent.com/media/Gimsphil/OFFCEBIN-1/main/OFFICE_BIN_macOS.zip",
       "fileName": "OFFICE_BIN_macOS.zip",
-      "fileSize": 88139038
+      "fileSize": 88149177
     },
     "linux": {
       "url": "https://github.com/Gimsphil/OFFCEBIN-1/raw/main/OFFICE_BIN_Linux.tar.gz",
       "fallbackUrl": "https://media.githubusercontent.com/media/Gimsphil/OFFCEBIN-1/main/OFFICE_BIN_Linux.tar.gz",
       "fileName": "OFFICE_BIN_Linux.tar.gz",
-      "fileSize": 76856295
+      "fileSize": 76865676
     }
   },
-  "fileSize": 181620736,
+  "fileSize": 181628928,
   "mandatory": false
 }
