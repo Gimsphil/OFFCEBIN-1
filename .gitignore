@@ -1,7 +1,2 @@
-# Prevent historical archive binary packages from exceeding GitHub Git LFS 1GB quota
-versions/*/*.zip
-versions/*/*.tar.gz
-versions/*/*.exe
-versions/*/*.html
-!versions/*/README.md
-!versions/*/version.json
+# Versions directory is ignored in Git - all release binaries are managed via GitHub Releases (https://github.com/Gimsphil/OFFCEBIN-1/releases)
+versions/
