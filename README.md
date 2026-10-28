@@ -1,7 +1,7 @@
 # 🌟 OFFICE BIN — 한글 · 엑셀 · PDF · 슬라이드 · 워드를 하나의 앱으로!
 
 <p align="center">
-  <img src="./PDF%20도면%20실측%20올인원%20오피스%20앱.png" alt="OFFICE BIN 대표 스크린샷" width="95%" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.35);" />
+  <img src="./OFFICE_BIN_Main.jpg" alt="OFFICE BIN 스마트 올인원 오피스" width="95%" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.35);" />
 </p>
 
 <p align="center">
